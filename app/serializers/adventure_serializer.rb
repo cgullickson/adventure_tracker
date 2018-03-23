@@ -1,3 +1,3 @@
 class AdventureSerializer < ActiveModel::Serializer
-  attributes :id, :date, :location, :description, :img_url
+  attributes :id, :title, :date, :location, :description, :img_url
 end
