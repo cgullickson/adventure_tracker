@@ -42,7 +42,7 @@ class Api::AdventuresController < ApplicationController
     end
 
     def adventure_params
-      params.require(:adventure).permit(:title, :location, :date, :img_url, :description)
+      params.require(:adventure).permit(:title, :location, :date, :img_url, :description, :likes)
     end
 
 end
